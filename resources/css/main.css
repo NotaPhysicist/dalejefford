@@ -51,8 +51,8 @@ a {
 }
 
 .title-heading {
-   font-weight: 400;
-   font-size: 1rem;
+   font-weight: 100;
+   font-size: 1.5rem;
    margin-bottom: .7rem;
 }
 
@@ -66,6 +66,7 @@ a {
 
 .about-me {
    padding: 0 1rem 0 1rem;
+   max-width: 40rem;
 }
 
 .about-me-heading,
@@ -81,6 +82,7 @@ a {
 .video {
    margin-top: 2rem;
    margin-bottom: 2rem;
+   max-width: 60rem;
 }
 
 /* Contact Section 
@@ -96,6 +98,6 @@ a {
 
 .contact-icon a ion-icon {
    color: #00ADEF;
-   padding: .5rem;
-   font-size: 2.2rem;
+   padding: .5rem .5rem .5rem 0;
+   font-size: 2rem;
 }
