@@ -1,9 +1,15 @@
+/* Notes
+   ============================================== */
+
 /* 
  * black: #020203
  * white: #FEFEFD
  */
 
-html,
+/* Global
+   ============================================== */
+
+ html,
 * {
    box-sizing: border-box;
    /* font-family: 'Inconsolata', monospace; */
@@ -12,8 +18,12 @@ html,
    font-weight: 100;
 }
 
+/* Page 
+   ============================================== */
+
 .page {
-   background-image: url("img/DrDazFilmBackground.png");
+   background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),  
+   url("img/DrDazFilmBackground.png");
    background-attachment: fixed;
    background-position: top;
    background-repeat: no-repeat;
@@ -21,13 +31,10 @@ html,
    height: 100vh;  
 }
 
-.title,
-.contact {
-   background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.65));
-}
-
+/* Title Section
+   ============================================== */
 .title {
-   height: 10rem;
+   height: 8rem;
    display: flex;
    align-items: center;
 }
@@ -39,14 +46,22 @@ html,
 
 .title-heading {
    font-weight: 100;
-   font-size: 2.5rem;
-   margin-bottom: .5rem;
+   font-size: 1.2rem;
+   margin-bottom: .7rem;
 }
 
 .title-subheading {
-   font-size: 1.2rem;
+   font-size: .8rem;
+   /* font-style: italic; */
 }
 
+/* About Me Section 
+  ============================================== */
+
+
+
+/* Contact Section 
+   ============================================== */
 .contact {
    display: flex;
    align-items: center;
