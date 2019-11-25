@@ -4,6 +4,7 @@
 /* 
  * black: #020203
  * white: #FEFEFD
+ * blue: #00ADEF     Vimeo link and title text color
  */
 
 /* Global
@@ -18,8 +19,14 @@
    font-weight: 100;
 }
 
+a { 
+   text-decoration: none; 
+   color: #00ADEF;
+   font-weight: 400;
+} 
+
 /* Page 
-   ============================================== */
+============================================== */
 
 .page {
    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),  
@@ -29,7 +36,11 @@
    background-repeat: no-repeat;
    background-size: cover;
    height: 100vh;  
+   /* padding: 1rem; */
 }
+
+
+
 
 /* Title Section
    ============================================== */
@@ -37,11 +48,7 @@
    height: 7rem;
    display: flex;
    align-items: center;
-}
-
-.title-group,
-.contact-group {
-   margin-left: .5rem;
+   padding: 0 .5rem 0 .5rem;
 }
 
 .title-heading {
@@ -56,14 +63,14 @@
 }
 
 /* About Me Section 
-  ============================================== */
+============================================== */
 
-  .about-me {
-   margin-bottom: 2rem;
+.about-me {
+   padding: 0 .5rem 0 .5rem;
 }
 
 .about-me-group {
-   margin: 0 .5rem 0 .5rem;
+   /* margin: 0 .5rem 0 .5rem; */
 }
 
 .about-me-heading,
@@ -73,20 +80,27 @@
    padding-bottom: .5rem;
 }
 
-/* Contact Section 
+/* Video Section 
    ============================================== */
-.contact {
-   /* display: flex;
-   align-items: center; */
-}
 
-.contact-heading {
-   font-size: 1.5rem;
+.video {
    margin-top: 2rem;
-   margin-bottom: 3rem;
-}
-
-.contact-ipsum {
    margin-bottom: 2rem;
 }
 
+/* Contact Section 
+   ============================================== */
+
+.contact {
+   padding: 0 .5rem 0 .5rem;
+}
+
+.contact-icon {
+   display: inline-block;
+   font-size: 1.7rem;
+}
+
+.contact-icon a ion-icon {
+   color: #00ADEF;
+   padding: .4rem;
+}
