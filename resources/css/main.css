@@ -1,0 +1,63 @@
+/* 
+ * black: #020203
+ * white: #FEFEFD
+ */
+
+html,
+* {
+   box-sizing: border-box;
+   /* font-family: 'Inconsolata', monospace; */
+   font-family: 'Roboto Mono', monospace;
+   color: #FEFEFD;
+   font-weight: 100;
+}
+
+.page {
+   background-image: url("img/DrDazFilmBackground.png");
+   background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;  
+}
+
+.title,
+.contact {
+   background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.65));
+}
+
+.title {
+   height: 10rem;
+   display: flex;
+   align-items: center;
+}
+
+.title-group,
+.contact-group {
+   margin-left: .5rem;
+}
+
+.title-heading {
+   font-weight: 100;
+   font-size: 2.5rem;
+   margin-bottom: .5rem;
+}
+
+.title-subheading {
+   font-size: 1.2rem;
+}
+
+.contact {
+   display: flex;
+   align-items: center;
+}
+
+.contact-heading {
+   font-size: 1.5rem;
+   margin-top: 2rem;
+   margin-bottom: 3rem;
+}
+
+.contact-ipsum {
+   margin-bottom: 2rem;
+}
