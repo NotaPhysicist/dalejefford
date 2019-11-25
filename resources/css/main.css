@@ -34,7 +34,7 @@
 /* Title Section
    ============================================== */
 .title {
-   height: 8rem;
+   height: 7rem;
    display: flex;
    align-items: center;
 }
@@ -45,26 +45,39 @@
 }
 
 .title-heading {
-   font-weight: 100;
-   font-size: 1.2rem;
+   font-weight: 400;
+   font-size: .7rem;
    margin-bottom: .7rem;
 }
 
 .title-subheading {
-   font-size: .8rem;
+   font-size: .7rem;
    /* font-style: italic; */
 }
 
 /* About Me Section 
   ============================================== */
 
+  .about-me {
+   margin-bottom: 2rem;
+}
 
+.about-me-group {
+   margin: 0 .5rem 0 .5rem;
+}
+
+.about-me-heading,
+.about-me-text {
+   font-size: .7rem;
+   line-height: 1.5;
+   padding-bottom: .5rem;
+}
 
 /* Contact Section 
    ============================================== */
 .contact {
-   display: flex;
-   align-items: center;
+   /* display: flex;
+   align-items: center; */
 }
 
 .contact-heading {
@@ -76,3 +89,4 @@
 .contact-ipsum {
    margin-bottom: 2rem;
 }
+
