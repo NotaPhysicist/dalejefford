@@ -11,7 +11,7 @@
 /* Global
    ============================================== */
 
- html,
+html,
 * {
    box-sizing: border-box;
    /* font-family: 'Inconsolata', monospace; */
@@ -19,6 +19,17 @@
    color: #FEFEFD;
    font-weight: 100;
    font-size: 16px;
+}
+
+body {
+   background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),  
+   url("img/DrDazFilmBackground.png");
+   background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;  
+   position: relative;
 }
 
 a { 
@@ -36,19 +47,6 @@ a:hover {
 
 /* Page 
 ============================================== */
-
-.page {
-   background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),  
-   url("img/DrDazFilmBackground.png");
-   background-attachment: fixed;
-   background-position: top;
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100vh;  
-   /* padding: 1rem; */
-}
-
-
 
 
 /* Title Section
@@ -114,4 +112,18 @@ a:hover {
 .contact-icon a ion-icon:hover {
    color: #d35400;
    transition: all .2s;
-} 
+}
+
+/* Footer Section
+   ============================================== */
+
+.footer {
+   padding: 1rem;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+}
+
+.footer-tag {
+   font-size: .6rem;
+}
