@@ -138,12 +138,10 @@ a:hover {
    ============================================== */
 
 .footer {
-   padding: 1rem;
-   position: fixed;
-   left: 0;
-   bottom: 0;
+   margin-top: 4rem;
 }
 
 .footer-tag {
+   color: rgba(254, 254, 253, 0.527);
    font-size: .6rem;
 }
